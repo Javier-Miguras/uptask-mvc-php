@@ -1,0 +1,13 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.confirmar{
+    margin-top: 5rem;
+    @include m.authStyle(v.$indigo);
+    .acciones{
+        display: block;
+        a{
+            text-align: center;
+        }
+    }
+}
